@@ -1,0 +1,39 @@
+header {
+    border: 5px dashed black;
+    text-align: center;
+    width: 1650px;
+    height: 200px;
+}
+p {
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 1px 1px 1px white;
+    margin: 0 450px 0 450px
+}
+
+.size {
+    border: 2px solid black;
+    background:white;
+    width: 180px;
+    height: 85.7px;
+
+}
+
+h1 {
+  font-size: 150px;
+  text-shadow: 1px 1px 1px white;
+  margin-top: -2px;
+}
+
+.background {
+    background-image: url(Images/CBG.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.pad {
+    object-position: center;
+}
+.pos {
+    text-align: center;
+}
