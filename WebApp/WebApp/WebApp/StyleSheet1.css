@@ -1,0 +1,52 @@
+header {
+    border: 5px dashed black;
+    text-align: center;
+    width: 1650px;
+    height: 200px;
+}
+p {
+    text-align: left;
+    font-family: Calibri;
+    font-size: 40px;
+    text-shadow: 1px 1px 1px black;
+    color: ghostwhite;
+}
+
+.size{
+    background:white;
+    width: 500px;
+    height: 200px;
+    border-radius: 50px 0 50px 0;
+    margin-left: 100px;
+}
+
+h1 {
+    font-family: Calibri;
+    font-size: 150px;
+    text-shadow: 20px 20px 20px black;
+    margin-top: -2px;
+    color: ghostwhite;
+}
+
+.background {
+    background-image: url(Images/CBG.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.pad {
+    object-position: center;
+}
+.pos {
+    text-align: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+   }
+
+   .item {
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+   }
